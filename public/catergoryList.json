@@ -1,0 +1,25 @@
+
+[
+    {
+      "logo": "https://i.postimg.cc/d0CYzS46/accounts.png",
+      "title": "Accountant",
+      "description": "Description of Category 1"
+    },
+    {
+      "logo": "https://i.postimg.cc/FRGnqy5G/chip.png",
+      "title": "Chip",
+      "description": "Description of Category 2"
+    },
+    {
+      "logo": "https://i.postimg.cc/RVWbsJPQ/marketing.png",
+      "title": "Marketting",
+      "description": "Description of Category 3"
+    },
+
+    {
+      "logo": "https://i.postimg.cc/RVWbsJPQ/marketing.png",
+      "title": "Marketting2",
+      "description": "Description of Category 3"
+    }
+  ]
+  
