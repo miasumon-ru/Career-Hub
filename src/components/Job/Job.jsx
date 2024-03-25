@@ -2,10 +2,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 import { FaDollarSign } from "react-icons/fa6";
 
+import { Link } from "react-router-dom";
+
 
 const Job = ({job}) => {
 
-    const {logo, job_title, company_name, remote_or_onsite,location, salary, job_type } = job
+    const {logo, id, job_title, company_name, remote_or_onsite,location, salary, job_type } = job
 
     const jobStyle = {
         border : '1px solid black',
@@ -37,7 +39,7 @@ const Job = ({job}) => {
 
             </div>
 
-            <button className="btn btn-primary">View Details</button>
+            <Link to={`/job/${id}`} ><button className="btn btn-primary">View Details</button></Link>
 
 
 
